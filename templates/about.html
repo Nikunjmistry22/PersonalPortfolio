@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>About Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/preloader.min.css" rel="stylesheet">
+    <link href="static/css/circle.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="static/css/skins/orange.css" rel="stylesheet">
+
+    <!-- Modernizr JS File -->
+    <script src="static/js/modernizr.custom.js"></script>
+</head>
+
+<body class="about light">
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fa fa-home"></i>
+            <a href="{{ url_for('index') }}">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-user"></i>
+            <a href="{{ url_for('about') }}">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="{{ url_for('portfolio') }}">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"></i>
+            <a href="{{ url_for('contact') }}">
+                <h2>Contact</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="{{ url_for('index') }}"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="{{ url_for('about') }}"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="{{ url_for('portfolio') }}"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="{{ url_for('contact') }}"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>ABOUT <span>ME</span></h1>
+    <span class="title-bg">Resume</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Personal Info Starts -->
+            <div class="col-12 col-lg-5 col-xl-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
+                    </div>
+                    <div class="col-12 d-block d-sm-none">
+                        <img src="static/img/Nikunj4.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Nikunj</span> </li>
+                            <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Mistry</span> </li>
+                            <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">21 Years</span> </li>
+                            <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Indian</span> </li>
+<li> <span class="title">Linkedin :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"><a href="https://www.linkedin.com/in/nikunj-mistry-b03993223/" target="_blank">Profile</a></span> </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Mumbai</span> </li>
+                            <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+919004256895</span> </li>
+                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">nikunjmistry1000@gmail.com</span> </li>
+                            <li> <span class="title">Github :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"><a href="https://github.com/Nikunjmistry22" target="_blank">Profile</a></span> </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <a href="static/Nikunj_Mistry_Resume_.pdf" download class="btn btn-download">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal Info Ends -->
+            <!-- Boxes Starts -->
+            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box-stats with-margin">
+                            <h3 class="poppins-font position-relative">1.3</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience In SQL</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats with-margin">
+                            <h3 class="poppins-font position-relative">1K</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">Linkedin <span class="d-block">Followers</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">500</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">SQl<span class="d-block">Problems Solved</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">1.8K</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">Leetcode <span class="d-block">Rating</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Boxes Ends -->
+        </div>
+        <hr class="separator">
+        <!-- Skills Starts -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">My Skills</h3>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p95">
+                    <span>95%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">SQL</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p85">
+                    <span>85%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Python</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p70">
+                    <span>70%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Power Bi</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p75">
+                    <span>75%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Pyspark</h6>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p70">
+                    <span>70%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">NoSql DB</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p85">
+                    <span>85%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Data Modelling</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p45">
+                    <span>45%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Docker</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p45">
+                    <span>45%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Web</h6>
+            </div>
+        </div>
+        <!-- Skills Ends -->
+        <hr class="separator mt-1">
+        <!-- Experience & Education Starts -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience <span>&</span> Education</h3>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">June 2023 - Sep 2023</span>
+                            <h5 class="poppins-font text-uppercase">Data Analyst Internship<span class="place open-sans-font">GamePe Technology</span></h5>
+                            <p class="open-sans-font">-Developed various dashboards, including revenue, deposit tracking, and game-specific analytics.</p>
+                            <p class="open-sans-font">-Managed cashback processes and automated weekly cashback reports using Metabase.</p>
+                            <p class="open-sans-font">-Resolved technical glitches and addressed customer queries to ensure a smooth user experience.</p>
+                            <p class="open-sans-font">-Automated user churn reports to provide valuable insights for the marketing team, enabling them to optimize marketing costs and strategies for user retention.</p>
+                            <p class="open-sans-font">-Contributed to MIS efforts, focusing on data-driven reporting and analysis.</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2020-2024</span>
+                            <h5 class="poppins-font text-uppercase">Engineering Degree <span class="place open-sans-font">Mumbai University</span></h5>
+                            <p class="open-sans-font">Information Technology CGPA:9.00</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2018-2020</span>
+                            <h5 class="poppins-font text-uppercase">12th Degree <span class="place open-sans-font">Pace Junior Science College</span></h5>
+                            <p class="open-sans-font">HSC PERCENTAGE: 80.62</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2016</span>
+                            <h5 class="poppins-font text-uppercase">10th Degree <span class="place open-sans-font">Mahaprgya Public School</span></h5>
+                            <p class="open-sans-font">CBSE PERCENATGE: 87.8</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience & Education Ends -->
+    </div>
+</section>
+<!-- Main Content Ends -->
+
+<!-- Template JS Files -->
+<script src="static/js/jquery-3.5.0.min.js"></script>
+<script src="static/js/styleswitcher.js"></script>
+<script src="static/js/preloader.min.js"></script>
+<script src="static/js/fm.revealator.jquery.min.js"></script>
+<script src="static/js/imagesloaded.pkgd.min.js"></script>
+<script src="static/js/masonry.pkgd.min.js"></script>
+<script src="static/js/classie.js"></script>
+<script src="static/js/cbpGridGallery.js"></script>
+<script src="static/js/jquery.hoverdir.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.js"></script>
+<script src="static/js/custom.js"></script>
+
+</body>
+
+
+</html>

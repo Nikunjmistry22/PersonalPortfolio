@@ -1,0 +1,16 @@
+@keyframes writeLetter {
+
+    100% {
+        transform: scale(1);
+        color: #FF5733; /* Change the color as needed */
+    }
+}
+
+#animated-words {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 36px; /* Change the font size as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: writeLetter 1.5s steps(40) 1s forwards;
+}
